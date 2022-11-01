@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: harsh
+@author: Naveen
 """
 
 
@@ -10,7 +10,7 @@ import face_recognition as fr
 import os
 from datetime import datetime
 
-path = "C:\\Users\\harsh\\Desktop\\face_recogn\\face_recognition\\known_pic"
+path = "C:\\Users\\Naveen\\Desktop\\face_recogn\\face_recognition\\known_pic"
 Images = []
 classNames = []
 my_list = os.listdir(path)
@@ -31,7 +31,7 @@ def findencodings(Images):
     return encodelist
 
 def markAttendence(name):
-    with open("C:\\Users\\harsh\\Desktop\\face_recogn\\face_recognition\\attendence.csv",'r+') as f:
+    with open("C:\\Users\\Naveen\\Desktop\\face_recogn\\face_recognition\\attendence.csv",'r+') as f:
         mydatalist = f.readlines()
         namelist = []
         #print(mydatalist)
