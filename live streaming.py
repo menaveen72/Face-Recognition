@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Oct 17 21:41:51 2020
 
 @author: Naveen
 """
