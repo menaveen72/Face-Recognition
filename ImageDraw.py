@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: harsh
+@author: Naveen
 """
 
 
@@ -8,7 +8,7 @@ from PIL import Image, ImageDraw
 import face_recognition
 
 # Load the jpg file into a numpy array
-image = face_recognition.load_image_file(r"C:\Users\harsh\Desktop\face_recogn\face_recognition\unknown_pic\Jeff1.jpg")
+image = face_recognition.load_image_file(r"C:\Users\Naveen\Desktop\face_recogn\face_recognition\unknown_pic\Jeff1.jpg")
 
 # Find all facial features in all the faces in the image
 face_landmarks_list = face_recognition.face_landmarks(image)
