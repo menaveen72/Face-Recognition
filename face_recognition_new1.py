@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Oct  2 18:02:43 2020
-
 @author: Naveen
 """
 
